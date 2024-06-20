@@ -9,6 +9,12 @@
     <script nomodule src="/build/ip-radio-btn.js"></script>
   </head>
   <body>
-    <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component>
+    <ip-radio-btn
+      radio-options='[
+      {"id":"1", "name":"Option 1","value":"option1", "checked": false},
+      {"id":"2", "name":"Option 2","value":"option2", "checked": false},
+      {"id":"3", "name":"Option 3","value":"option3", "checked": false}]'
+    >
+    </ip-radio-btn>
   </body>
 </html>
